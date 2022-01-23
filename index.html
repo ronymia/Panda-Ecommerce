@@ -19,17 +19,21 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" alt="" width="164" height="28">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/logo.png" alt="" width="164" height="28">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              
+               <div class="">
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+               </div>
+               <div class="">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -44,7 +48,8 @@
                     <a class="nav-link" href="#Contact">Contact Us</a>
                   </li>
                 </ul>
-              </div>
+               </div>
+              
             </div>
           </nav>
           <!-- Image Slider -->
@@ -107,22 +112,25 @@
        </section>
     </header>
     <main>
+      <!-----------------------------------
+                  catagories section 
+    -------------------------------- -->
         <section class="container my-5">
-                <div class="row g-4">
-                  <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border panda-bg d-flex align-items-center justify-content-between">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="p-3 d-flex align-items-center justify-content-between rounded-3 cat1">
                         <h1 class="text-white">Bag</h1>
                         <img src="./images/categories/bag.png" alt="" srcset="">
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border panda-bg d-flex align-items-center justify-content-between">
+                  <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="p-3  d-flex align-items-center justify-content-between rounded-3 cat2">
                         <h1 class="text-white">Shoes</h1>
                         <img src="./images/categories/shoes.png" alt="" srcset="">
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border panda-bg d-flex align-items-center justify-content-between">
+                  <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="p-3  d-flex align-items-center justify-content-between rounded-3 cat3">
                         <h1 class="text-white">Watch</h1>
                         <img src="./images/categories/watch.png" alt="" srcset="">
                     </div>
@@ -132,11 +140,8 @@
         <!-- -----------------------------------
                               Shoes section 
         ------------------------------- -->
-        <section class="container ">
-            <div class="tittle">
-                <h1>Shoes
-                </h1>
-            </div>
+        <section class="container ">      
+                <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                   <div class="card border-0 shadow-lg h-100">
@@ -275,12 +280,10 @@
         ------------------------------------- -->
             <section style="height:300px;" id="Contact" class=" container panda-bg bg-gradient  d-flex justify-content-center align-items-center rounded-3 ">
                 <div class="">
-                    <h1>LET'S STAY IN TOUCH</h1>
+                    <h3>LET'S STAY IN TOUCH</h3>
                     <p>Get updates on sales specials and more</p>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's e-mail" aria-label="" aria-describedby="">
-                        <button class="btn btn-outline-secondary" type="button" id="">Send</button>
-                      </div>
+                    <input style="width: 500px;" type="text" class="form-control" placeholder="Recipient's e-mail" aria-label="" aria-describedby="">
+                        <button  class="btn btn-color" type="button" id="">Send</button>
                 </div>
             </section>
     </main>

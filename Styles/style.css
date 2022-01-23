@@ -12,3 +12,21 @@
   padding: 9px 25px;
   cursor: pointer;
 }
+.cat1 {
+  background-color: #ffa500;
+}
+.cat2 {
+  background-color: #da70d6;
+}
+.cat3 {
+  background-color: #0000ff;
+}
+
+/*-----------------------------------------
+             Card styles
+------------------------------------ */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
