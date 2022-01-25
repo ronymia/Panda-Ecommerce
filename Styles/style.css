@@ -1,27 +1,79 @@
+/* ----------------------------------------
+              Google fonts  
+--------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* --------------------------------------
+             Common Styles 
+-----------------------------------*/
+* {
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+/* ----------------------------------
+          Nav-menu Styles 
+--------------------------------*/
+
+/* -------------------------------------
+        Header SectionS Styles
+---------------------------------- */
+.col-lg-7 h1 {
+  color: #1f1f1f;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.col-lg-7 p {
+  font-family: Inter;
+  color: #4e4e4e;
+  margin: 1.75rem 0;
+}
+.col-lg-7 h2 {
+  font-size: 2.5rem;
+  color: #ff136f;
+}
 .panda-bg {
   background-color: #fceae8;
+}
+.img-catagories {
+  margin-top: 50px;
 }
 .img-catagories img {
   width: 100px;
 }
+/* ------------------------------------------------------------
+                             Button Styles
+         ---------------------------------------------------- */
 .btn-color {
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
   color: #fff;
   border: none;
+  width: 168px;
+  height: 52px;
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 .cat1 {
-  background-color: #ffa500;
+  background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
 .cat2 {
-  background-color: #da70d6;
+  background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
 .cat3 {
-  background-color: #0000ff;
+  background-image: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
-
+.car-sec {
+  width: 85%;
+}
 /*-----------------------------------------
              Card styles
 ------------------------------------ */
