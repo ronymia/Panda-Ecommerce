@@ -59,31 +59,41 @@ body {
 .img-catagories img {
   width: 100px;
 }
-/* ------------------------------------------------------------
-                             Button Styles
-         ---------------------------------------------------- */
-
-.btn-color {
-  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
-  color: #fff;
-  border: none;
-  width: 168px;
-  height: 52px;
-  border-radius: 8px;
-  padding: 9px 25px;
-  cursor: pointer;
+/* --------------------------------
+         Categories Styles
+ ---------------------------- */
+.cat-sec {
+  width: 85%;
+}
+.cat-sec h1 {
+  color: #1f1f1f;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin: 2rem 0;
 }
 .cat1 {
   background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+  height: 150px;
+  width: 359px;
 }
 .cat2 {
   background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  height: 150px;
+  width: 359px;
 }
 .cat3 {
   background-image: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+  height: 150px;
+  width: 359px;
 }
-.car-sec {
-  width: 85%;
+/* ----------------------------------------
+          Shoes categories Styles
+------------------------------------ */
+.shoes-cat h1 {
+  color: #1f1f1f;
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 2rem 0;
 }
 /*-----------------------------------------
              Card styles
@@ -92,4 +102,44 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
+  align-items: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  color: #1f1f1f;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.card-text {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.card-body h3 {
+  color: #000000;
+  font-weight: 500;
+}
+/* ------------------------------------------------------------
+                             Button Styles
+         ---------------------------------------------------- */
+
+.btn-color {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  width: 168px;
+  height: 52px;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.btn-color:hover {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
 }
