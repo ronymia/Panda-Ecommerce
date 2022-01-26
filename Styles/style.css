@@ -64,6 +64,7 @@ body {
  ---------------------------- */
 .cat-sec {
   width: 85%;
+  margin: 4rem auto;
 }
 .cat-sec h1 {
   color: #1f1f1f;
