@@ -25,6 +25,9 @@ body {
 /* -------------------------------------
         Header SectionS Styles
 ---------------------------------- */
+.carousel-inner {
+  border-radius: 1.5rem;
+}
 .col-lg-7 h1 {
   color: #1f1f1f;
   font-weight: bold;
@@ -62,10 +65,6 @@ body {
 /* --------------------------------
          Categories Styles
  ---------------------------- */
-.cat-sec {
-  width: 85%;
-  margin: 4rem auto;
-}
 .cat-sec h1 {
   color: #1f1f1f;
   font-weight: 600;
@@ -76,16 +75,19 @@ body {
   background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
   height: 150px;
   width: 359px;
+  border-radius: 1.2rem;
 }
 .cat2 {
   background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
   height: 150px;
   width: 359px;
+  border-radius: 1.2rem;
 }
 .cat3 {
   background-image: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
   height: 150px;
   width: 359px;
+  border-radius: 1.2rem;
 }
 /* ----------------------------------------
           Shoes categories Styles
